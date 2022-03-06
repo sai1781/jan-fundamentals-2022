@@ -1,0 +1,15 @@
+.sai {
+    display: none;
+}
+.initial {
+    display: initial;
+}
+.d-none{
+    display: none;
+}
+button{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+
+}
