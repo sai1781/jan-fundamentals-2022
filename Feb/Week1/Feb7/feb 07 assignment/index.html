@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scrript" ></script>
+</head>
+<body>
+    <h1>Application form</h1>
+    <form action="./feedback.html">
+        Enter your name*
+        <br />
+        <input type="name" name="user_name" required pattern=".[a-z{50}|A-Z{50}]\">
+        <br />
+        <br />
+        Enter your father name*
+        <br />
+        <input type="name" name="user_father_name" required pattern=".[a-z{50}|A-Z{50}]\">
+        <br />
+        <br />
+        enter your mothername* 
+        <br />
+
+        <input type="name"name="user_father_name" required pattern=".[a-z{50}|A-Z{50]}]\">
+        <br />
+        <br />
+        Enter the 10Th marks*
+        <br />
+        <input type="number" required name="10th_marks"  pattern=".[1-9].[0-9]{2}">
+        <br />
+        <br />
+        Enter the 12Th marks*
+        <br />
+        <input type="number" required name="12th_marks"  pattern=".[1-9].[0-9]{2}">
+        <br />
+        <br />
+          Gender
+        <br />
+        <input type="radio" name="gender" required>male
+        <input type="radio" name="gender" required>female
+        <br />
+        <br />
+        <textarea placeholder="enter the message" required minlength="50" maxlength="100"></textarea>
+        <br />
+        <br />
+      
+        <br />
+        <input type="submit" />
+        <input type="reset" />
+
+
+
+        
+            
+            
+        
+
+    </form>
+
+
+    
+</body>
+</html>
