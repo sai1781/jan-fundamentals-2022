@@ -1,0 +1,43 @@
+body {
+    background-color: #02b4db;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 20px;
+    color:white;
+    display: flex;
+    
+}
+.score {
+    position: absolute;
+    left:350px;
+       
+    
+}
+.game{
+    position:absolute;
+    right:350px;
+    display: flex;
+    margin-left: 1000vh;
+
+}
+.stone {
+    position:absolute;
+    left: -180px;
+    display: flex;
+    background-color: aqua;
+    
+
+    
+}
+.paper{
+    position:absolute;
+    left: 170px;
+    display: flex;
+}
+.scisor {
+    position:absolute;
+    left: 330px;
+    display: flex;
+
+
+}

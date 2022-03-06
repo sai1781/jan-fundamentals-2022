@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script"></script>
+    <link rel="stylesheet" href="./reg.css" />
+    
+</head>
+
+<body>
+    <div class="main">
+        <form action="./feedback.html">
+            <div class="layout">
+                <h1>Application Form</h1>
+               <div>
+                    <div>
+                        <input type="text" required name="user_first_name" placeholder="First Name" />
+                        <input type="text" required name="user_last_name" placeholder="Last Name" />
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Father name" name="Father_name" required />
+                        <input type="text" placeholder="Mother Name" name="Mother_Name" required />
+                    </div>
+                    <div>
+                        <select>
+                            <option disabled selected>Select the highest degree</option>
+                            <option value="1">B.tech in cse</option>
+                            <option value="2">B.tech in IT</option>
+                            <option value="3">others</option>
+                        </select>
+
+                        <input type="number" placeholder="Year of studying" required />
+                    </div>
+                    <div>
+                        <input type="email" required placeholder="Enter your Email" name="User_Email"
+                            pattern=".+@gmail/(.com|.in)" />
+                        <input type="number" placeholder="Enter your Phone Number" pattern=".[1-9]{1}.[0-9]{9}"
+                            required />
+                    </div>
+                    <div>
+                        <textarea required pattern=".[a-z{250}|A-Z{250}]" placeholder="enter your message"
+                            name="Q"></textarea>
+
+                    </div>
+                </div>
+                <div class="check-box">
+                    <div>
+                        <input type="checkbox" check required />
+                    </div>
+                    <div>
+                        <p>By clicking to agree <span>terms</span> and <span>conditions</span></p>
+
+                    </div>
+                </div>
+                <div>
+                    <button type="submit">
+                        Submit
+                    </button>
+                    <button type="Reset">
+                        reset
+                    </button>
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

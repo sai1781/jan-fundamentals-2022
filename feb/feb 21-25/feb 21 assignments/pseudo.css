@@ -1,0 +1,126 @@
+
+input{
+    width: 130px;
+}
+nav{
+    background-color: rgba(58, 58, 58, 0.363);
+    height: 30px;
+    justify-content: space-between;
+    
+    
+}
+body{
+    margin: 0px;
+    background-color: rgba(116, 114, 114, 0.8);
+    
+}
+span{
+    margin-left:-30px;
+    font-size: 12px;
+}
+input{
+    border-radius: 5px;
+    width: 150px;
+    margin: 7px 5px;
+    padding: 0px;
+}
+
+
+a{
+    margin: 10px;
+}
+.middle-content{
+    color: rgb(71, 163, 71);
+    background-color: rgba(43, 41, 41, 0.363);
+    margin-left: 200PX ;
+    margin-right: 400px;
+    text-align: center;
+    margin-top: -52PX;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #474747fd;
+    justify-content: space-between;
+    
+}
+.content {
+    margin-top: 20px;
+    /* margin-top: -50px; */
+    width: 200px;
+    
+    margin-left: 100px; 
+
+}
+section{
+    /* background-color:rgba(116, 114, 114, 0.2); */
+    
+    margin: -20px;
+    height: 350px;
+    width: auto;
+}
+
+.gallery > img{
+    width: 250px;
+    height: 280px;
+    float: right;
+    position: relative;
+    margin-top: -280px;
+    margin-right: 50px;
+    box-shadow: 5px 3px 10px ;
+}
+.content > p{
+    padding-top: 50px;
+}
+.search-bar{
+    
+    justify-content: flex-start;
+}
+.trigger {
+    width: 600px;
+    float: right;
+    margin-top: -61px;
+    
+    
+    
+    
+}
+.trigger ul  {
+    list-style: none       
+}
+.trigger ul  li  {
+    background-color: #262626;
+    width: 70px;
+    border: 1px solid #fff;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: right;
+    color: #fff;
+    font-size: 7px;
+    position: relative;
+    font-family: bold;
+}
+.trigger ul li:hover {
+    background-color: crimson;
+    z-index: 99;
+}
+.trigger ul ul{
+    display: none;
+}
+.trigger ul li:hover > ul{
+    display: initial;
+    cursor: pointer;
+    z-index: 99;
+}
+.trigger ul ul ul {
+    top: -20px;
+    margin-left: -30px;
+    position: absolute;
+    
+}
+.downside-symbol{
+    margin-right: -80px;
+    margin-top: px;
+    display: inline;
+
+}
+
+
