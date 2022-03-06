@@ -1,0 +1,21 @@
+
+table > tbody > tr:nth-child(3n){
+    color: violet;
+}
+table > tbody > tr:nth-child(3n-1){
+    color: blue;
+}
+
+table > tbody > tr:nth-child(3n-2){
+    color: green;
+}
+table{
+    border-color: black;
+}
+body{
+    background-color: ;
+}
+
+
+
+

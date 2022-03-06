@@ -1,0 +1,59 @@
+div img{
+    
+    height: 15px;
+}
+Nav  div {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    
+}
+.mic{
+    background-color: rgba(247, 247, 247, 0.7);
+    padding: 3px;
+    border-radius: 100%;
+}
+.button{
+    /* margin-top: 10px; */
+    /* padding-top: 10px; */
+}
+button{
+    margin-left: -5px;
+    height: 25px;
+    /* margin-bottom: 40px; */
+    /* margin-top: -1px; */
+    padding: 4px;
+    /* margin-top: 50px; */
+    padding-top: 1px;
+    /* padding-bottom: 5px ; */
+    /* position: relative; */
+
+}
+.searchbar{
+    margin-left: 230px;
+}
+.searchbar div > input{
+    width: 390px;
+    height: 25px;
+    
+}
+.youtubeicon{
+    margin-left: 15px;
+}
+nav {
+    margin: 3px;
+    
+    display: flex;
+    /* flex-direction: row; */
+    /* display: inline-block; */
+}
+.toolbar{
+    margin-left: 200px;
+    
+}
+.toolbar >  div > img{
+    float: left;
+    justify-content: space-between;
+}
+
+
